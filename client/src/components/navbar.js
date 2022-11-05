@@ -20,26 +20,26 @@ export default function Navbar() {
                 <Logo />
                 <div class="container">
                 <div class="row">
-    <div class="col-6">
-      
-    </div>
-    <div class="col-3">
-    
-    </div>
-    <div class="col-3">
-     
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-6">
-    <h3> <BsFillChatLeftFill /></h3>
-    </div>
-    <div class="col-3">
-    <button type="button" class="btn btn-primary">Login</button>
-    </div>
-  </div>
-  
-</div>
+                <div class="col-6">
+                  
+                </div>
+                <div class="col-3">
+                
+                </div>
+                <div class="col-3">
+                
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                <button type="button" class="btn btn-primary"><BsFillChatLeftFill /></button>
+                </div>
+                <div class="col-3">
+                <button type="button" class="btn btn-primary">Login</button>
+                </div>
+              </div>
+              
+            </div>
             </nav>
             
         </div>
