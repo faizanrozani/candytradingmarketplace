@@ -1,5 +1,9 @@
 import React from "react";
 
+import { BsFillChatLeftFill } from 'react-icons/bs';
+//npm install react-icons --save
+
+
 // We import bootstrap to make our application look better.
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -28,10 +32,10 @@ export default function Navbar() {
   </div>
   <div class="row">
     <div class="col-6">
-      button one
+    <h3> <BsFillChatLeftFill /></h3>
     </div>
     <div class="col-3">
-      button two
+    <button type="button" class="btn btn-primary">Login</button>
     </div>
   </div>
   
