@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 
 const Stash = (props) => (
   <tr>
-    <td>{props.stash.email}</td>
-    <td>{props.stash.candy}</td>
-    <td>
-    </td>
+    <td>{props.email}</td>
+    <td>{props.candy}</td>
   </tr>
 );
 
@@ -30,7 +27,7 @@ export default function ViewTrades() {
 
     getStashes();
 
-    return; 
+    return;
   }, [stashes.length]);
 
   // This method will delete a record
@@ -41,13 +38,13 @@ export default function ViewTrades() {
     return stashes.map((stash) => {
       return (
         <Stash
-          stash={stash}
-          key={stash._id}
+          email={stash.email}
+          candy={`Chocolate: ${stash.candy['Chocolate']} | Lollipops: ${stash.candy['Lollipops']} | Gum Drops: ${stash.candy['Gum Drops']}`}
         />
       );
     });
   }
-  
+
 
   // This following section will display the table with the records of individuals.
   return (
@@ -56,7 +53,7 @@ export default function ViewTrades() {
       <table className="table table-striped" style={{ marginTop: 20 }}>
         <thead>
           <tr>
-            <th>Email</th>
+            <th>Account</th>
             <th>Candy</th>
           </tr>
         </thead>
@@ -64,4 +61,4 @@ export default function ViewTrades() {
       </table>
     </div>
   );
-  }
+}
