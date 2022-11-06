@@ -53,7 +53,12 @@ app.get('/', (req, res) => {
       });
   }
   res.sendStatus(200);
+  res.redirect("http://localhost:3000");
 });
+
+app.post('/callback', (req, res) => {
+  res.redirect("http://localhost:3000");
+})
 
 app.listen(port, () => {
   // perform a database connection when server starts
