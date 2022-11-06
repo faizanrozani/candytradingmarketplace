@@ -1,0 +1,75 @@
+.main{
+   
+    height: 90%;
+    
+}
+.container-page{
+    height: 100%;
+}
+.resolve{
+    
+}
+.nav-container{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    float: right;
+    min-height: 100px;
+    
+    
+}
+.nav-containerss{
+    overflow: hidden;
+    height: 30%;
+}
+
+.flt{
+    width: 50%;
+    height: 20%;
+    float: right;
+    min-height: 100px;
+}
+.flt-button{
+    float: right;
+    position: relative;
+    margin: 10px;
+
+}
+.header-title{
+    width: 50%;
+    float: left;
+    text-align: center;
+    min-height: 100px;
+
+}
+.profile{
+    min-height: 600px;
+}
+.footer-style{
+    color: white;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    min-height: 100px;
+}
+.overview{
+    min-height: 600px;
+    background-color: red;
+}
+.null{
+    width: 5%;
+}
+
+#root{
+    
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}

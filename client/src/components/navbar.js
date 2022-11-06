@@ -10,38 +10,23 @@ import "bootstrap/dist/css/bootstrap.css";
 // We import NavLink to utilize the react router.
 import { NavLink } from "react-router-dom";
 
-import Logo from "./Logo";
+//import Logo from "./Logo";
 
 // Here, we display our Navbar
 export default function Navbar() {
     return (
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <Logo />
-                <div class="container">
-                <div class="row">
-                <div class="col-6">
-                  
-                </div>
-                <div class="col-3">
-                
-                </div>
-                <div class="col-3">
-                
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-6">
-                <button type="button" class="btn btn-primary"><BsFillChatLeftFill /></button>
-                </div>
-                <div class="col-3">
-                <button type="button" class="btn btn-primary">Login</button>
-                </div>
-              </div>
-              
-            </div>
-            </nav>
-            
+        <div class="nav-container">
+          <h1 class="header-title bg-warning display-4">Candy Trading Place</h1>
+          <div class="null">
+
+          </div>
+          <div class="flt">
+            <button type="button" class="btn btn-warning flt-button btn-mar btn-lg">Login</button>
+          <button type="button" class="btn btn-warning flt-button btn-mar btn-lg"><BsFillChatLeftFill /></button>
+          </div>
+          
+       
+          
         </div>
     );
 }
