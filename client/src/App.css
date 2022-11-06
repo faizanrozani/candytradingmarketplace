@@ -44,8 +44,39 @@
     min-height: 100px;
 
 }
+.form-Lollipops{
+   
+}
+.form-Choclate{
+   
+}
+.form-GumDrops{
+
+}
+.title-style{
+    margin-bottom: 30px;
+}
 .profile{
     min-height: 600px;
+    min-width: 600px;
+    height: 100%;
+    width: 100%;
+}
+.inner-profile{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 50px;
+}
+.inner-profile-modified{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    padding: 50px;
+}
+.text-center{
+    font: Titillium;
+    line-height: 1.6;
 }
 .footer-style{
     color: white;

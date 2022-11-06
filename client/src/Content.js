@@ -20,7 +20,7 @@ export default function Content() {
 
            <li className="nav-item">
              <NavLink className="nav-link" to="/setprofile">
-             <span class="mr-9 ml-9 h3 text-warning">SetProfile</span>
+             <span class="mr-9 ml-9 h3 text-warning">My Candy</span>
              </NavLink>
            </li>
 
